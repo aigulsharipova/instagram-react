@@ -1,4 +1,5 @@
 import './App.css';
+import TitleList from './Description';
 import FollowersList from './Followers';
 import HeaderList from './Header';
 import NatPhoto from './Image';
@@ -14,6 +15,9 @@ function App() {
       </div>
       <div className='subtittle'>
         <FollowersList />
+      </div>
+      <div className='title'>
+        <TitleList />
       </div>
     </div>
   );

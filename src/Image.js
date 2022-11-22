@@ -2,7 +2,7 @@ import natGeo from './photo.jpeg'
 
 function NatPhoto() {
   return (
-    <img src={natGeo} width='300px'/>
+    <img src={natGeo} alt='logo' width='300px' />
   )
 }
 
